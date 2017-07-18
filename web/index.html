@@ -26,6 +26,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //lined-icons -->
  <!-- Meters graphs -->
 <script src="js/jquery-2.1.4.js"></script>
+<script type="text/javascript" src="data.json"></script>
 
 
 </head> 
@@ -436,7 +437,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<!--//music-left-->
 						    <!--/music-right-->
 						   <div class="music-right">
-								<!--/video-main-->
+								
+								<!--/app_store-->
+									  <div class="apps">
+												<h3 class="hd-tittle">Mosaic now available in</h3>
+												<div class="banner-button">
+													<a href="#"><img src="images/1.png" alt=""></a>
+												</div>
+												<div class="banner-button green-button">
+													<a href="#"><img src="images/2.png" alt=""></a>
+												</div>
+													<div class="clearfix"></div>
+										</div>
+								  <!--//app_store-->
+
+								  <!--/video-main-->
 								 <div class="video-main">
 									<div class="video-record-list">
 										<div id="jp_container_1" class="jp-video jp-video-270p" role="application" aria-label="media player">
@@ -494,69 +509,42 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<script type="text/javascript">
 				//<![CDATA[
 				$(document).ready(function(){
-
+var arr;
 					new jPlayerPlaylist({
 						jPlayer: "#jquery_jplayer_1",
 						cssSelectorAncestor: "#jp_container_1"
-					}, [
+					}, 
+							/*$(function() {
+								[
+								
+								data.a.forEach(function(item) {
+								{
+								console.log(item.title);
+								
+								title:item.title
+							
+								
+								},
+							})
+								]
+							})*/
+						[
+					data.a.forEach(function(item) {
+								{
+								title:item.title
+							//	title:item.title,
+								/*
+							ogv: "video/Pharrell-Williams.ogv",
+							webmv: "video/Pharrell-Williams.webm",
+							poster:"video/play5.png"
+							*/
+									}
+							})
 						
-						{
-							title:"1. Ellie-Goulding",
-							artist:"",
-							mp4: "video/Ellie-Goulding.mp4",
-							ogv: "video/Ellie-Goulding.ogv",
-							webmv: "video/Ellie-Goulding.webm",
-							poster:"video/play1.png"
-						},
-						{
-							title:"2. Mark-Ronson-Uptown",
-							artist:"",
-							mp4: "video/Mark-Ronson-Uptown.mp4",
-							ogv: "video/Mark-Ronson-Uptown.ogv",
-							webmv: "video/Mark-Ronson-Uptown.webm",
-							poster:"video/play2.png"
-						},
-						{
-							title:"3. Ellie-Goulding",
-							artist:"",
-							mp4: "video/Ellie-Goulding.mp4",
-							ogv: "video/Ellie-Goulding.ogv",
-							webmv: "video/Ellie-Goulding.webm",
-							poster:"video/play1.png"
-						},
-						{
-							title:"4. Maroon-Sugar",
-							artist:"",
-							mp4: "video/Maroon-Sugar.mp4",
-							ogv: "video/Maroon-Sugar.ogv",
-							webmv: "video/Maroon-Sugar.webm",
-							poster:"video/play4.png"
-						},
-						{
-							title:"5. Pharrell-Williams",
-							artist:"",
-							mp4: "video/Pharrell-Williams.mp4",
-							ogv: "video/Pharrell-Williams.ogv",
-							webmv: "video/Pharrell-Williams.webm",
-							poster:"video/play5.png"
-						},
-						{
-							title:"6. Ellie-Goulding",
-							artist:"",
-							mp4: "video/Ellie-Goulding.mp4",
-							ogv: "video/Ellie-Goulding.ogv",
-							webmv: "video/Ellie-Goulding.webm",
-							poster:"video/play1.png"
-						},
-						{
-							title:"7. Pharrell-Williams",
-							artist:"",
-							mp4: "video/Pharrell-Williams.mp4",
-							ogv: "video/Pharrell-Williams.ogv",
-							webmv: "video/Pharrell-Williams.webm",
-							poster:"video/play5.png"
-						}
-					], {
+						]
+					, 
+				
+					{
 						swfPath: "../../dist/jplayer",
 						supplied: "webmv,ogv,mp4",
 						useStateClassSkin: true,
@@ -571,18 +559,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<!-- //script for play-list -->
 
 								<!--//video-main-->
-								<!--/app_store-->
-									  <div class="apps">
-												<h3 class="hd-tittle">Mosaic now available in</h3>
-												<div class="banner-button">
-													<a href="#"><img src="images/1.png" alt=""></a>
-												</div>
-												<div class="banner-button green-button">
-													<a href="#"><img src="images/2.png" alt=""></a>
-												</div>
-													<div class="clearfix"></div>
-										</div>
-								  <!--//app_store-->
 						         <!--/start-paricing-tables-->
 									<div class="price-section">
 											<div class="pricing-inner">

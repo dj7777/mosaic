@@ -1,0 +1,57 @@
+var data=  {"a":               [ {
+							"title":"10. Ellie-Goulding",
+							"artist":"",
+							"mp4": "video/Ellie-Goulding.mp4",
+							"ogv": "video/Ellie-Goulding.ogv",
+							"webmv": "video/Ellie-Goulding.webm",
+							"poster":"video/play1.png"
+						},
+						{
+							"title":"11. Mark-Ronson-Uptown",
+							"artist":"",
+							"mp4": "video/Mark-Ronson-Uptown.mp4",
+							"ogv": "video/Mark-Ronson-Uptown.ogv",
+							"webmv": "video/Mark-Ronson-Uptown.webm",
+							"poster":"video/play2.png"
+						},
+						{
+							    "title":"12. Ellie-Goulding",
+							"artist":"",
+							"mp4": "video/Ellie-Goulding.mp4",
+							"ogv": "video/Ellie-Goulding.ogv",
+							"webmv": "video/Ellie-Goulding.webm",
+							"poster":"video/play1.png"
+						}
+					/*	{
+							title:"4. Maroon-Sugar",
+							artist:"",
+							mp4: "video/Maroon-Sugar.mp4",
+							ogv: "video/Maroon-Sugar.ogv",
+							webmv: "video/Maroon-Sugar.webm",
+							poster:"video/play4.png"
+						},
+						{
+							title:"5. Pharrell-Williams",
+							artist:"",
+							mp4: "video/Pharrell-Williams.mp4",
+							ogv: "video/Pharrell-Williams.ogv",
+							webmv: "video/Pharrell-Williams.webm",
+							poster:"video/play5.png"
+						},
+						{
+							title:"6. Ellie-Goulding",
+							artist:"",
+							mp4: "video/Ellie-Goulding.mp4",
+							ogv: "video/Ellie-Goulding.ogv",
+							webmv: "video/Ellie-Goulding.webm",
+							poster:"video/play1.png"
+						},
+						{
+							title:"7. Pharrell-Williams",
+							artist:"",
+							mp4: "video/Pharrell-Williams.mp4",
+							ogv: "video/Pharrell-Williams.ogv",
+							webmv: "video/Pharrell-Williams.webm",
+							poster:"video/play5.png"
+						}*/
+]}
